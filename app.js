@@ -26,7 +26,7 @@ app.use(
       res: "response",
       err: "error",
     },
-  })
+  }),
 );
 
 // In-memory DB
@@ -101,7 +101,7 @@ app.get("/simulate-error", (req, res) => {
 
 // Root endpoint
 app.get("/", (req, res) => {
-  res.send("Order Service is running as expected.");
+  res.send("Order Service is running as expectesfdfd.");
 });
 
 // Export app for testing and server.js
